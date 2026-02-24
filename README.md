@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+![React](https://img.shields.io/badge/React-19-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-38B2AC)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🍽️ Restaurant Menu
 
-## Available Scripts
+A modern digital restaurant menu built using **React.js** and **TailwindCSS**.  
+The application allows users to browse food categories, explore meals, view item details, and manage a shopping cart through a clean and responsive interface.
 
-In the project directory, you can run:
+This project demonstrates modern frontend development practices including component-based architecture, state management, and scalable UI structure.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Restaurant Menu application is a Single Page Application (SPA) designed to simulate a real restaurant ordering experience.
 
-### `npm test`
+Users can:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Browse menu categories
+- View available dishes
+- Open detailed meal information
+- Add items to cart
+- Manage quantities dynamically
+- Navigate smoothly without page reloads
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Responsive design (mobile & desktop)
+- Category-based navigation
+- Meal details view
+- Shopping cart system
+- Fast client-side rendering
+- Modern UI with TailwindCSS
+- Ready for backend/API integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Application Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home Page
+Displays available meals and menu layout.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home UI](docs/images/ui-home.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Item Details
+Detailed information about selected menu items.
 
-## Learn More
+![Details UI](docs/images/ui-details.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🛒 Add To Cart
+Users can add meals and manage cart items.
 
-### Code Splitting
+![Cart UI](docs/images/ui-add-to-cart.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend
+- React.js
+- React Router DOM
+- TailwindCSS
+- JavaScript (ES6+)
 
-### Making a Progressive Web App
+### State & Data
+- React Hooks
+- Axios (API ready structure)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tooling
+- Create React App
+- PostCSS
+- npm
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation
 
-### Deployment
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/AliTechM/restaurant-menu.git
 
-### `npm run build` fails to minify
+cd restaurant-menu
+npm install
+npm start
+npm start
+```
+## Open in browser:
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
+src/
+│
+├── components/      Reusable UI components
+├── pages/           Application pages
+├── assets/          Images & static files
+├── axios.js         API configuration
+└── App.js
+
+ ## Current Version
+ v1.0.0
+
+## Contributing
+
+Contributions are welcome.
+
+1-Fork the repository
+2-Create a new branch
+3-Commit your changes
+4-Open a Pull Request
+
+## License
+MIT License
+
+## Author
+AliTechM
+https://github.com/AliTechM
+
+## ⭐Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
