@@ -10,7 +10,6 @@ axiosClient.interceptors.request.use((config) => {
 
 axiosClient.interceptors.response.use(
   (response) => {
-    const requestMethod = response?.config?.method;
  
     return response;
   },
@@ -29,7 +28,6 @@ axiosClient.interceptors.response.use(
     } else {
       return false;
     }
-    throw response;
   }
 );
 export default axiosClient;
