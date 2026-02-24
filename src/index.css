@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent body scrolling when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex-center{
+  @apply  flex justify-center items-center;
+}
+.flex-b{
+  @apply  flex justify-between items-center
+}
+.common-glow::before {
+  @apply absolute -left-2 top-[12%] w-2 h-3/4 bg-gradient-to-b from-[#f0f0f0] to-gray-300 transition-all duration-300;
+  content: '';
+}
+
+.common-glow::after {
+  @apply absolute -right-2 top-[12%] w-2 h-3/4 bg-gradient-to-t from-[#f0f0f0] to-gray-300 transition-all duration-300;
+  content: '';
+}
